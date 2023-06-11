@@ -1,4 +1,4 @@
-package challenge.emailservicespring.domains.health.controller;
+package challenge.emailservicespring.demo.health.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
