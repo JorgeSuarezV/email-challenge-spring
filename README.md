@@ -15,6 +15,7 @@ In this example you'll find an already setted up empty spring server.
   docker compose up
   ```
 - You're ready to go!
+- To check if your server is running visit http://localhost:8080/api/health in your browser or call that endpoint in Postman
 
 ## Useful tools
 
