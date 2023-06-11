@@ -147,7 +147,7 @@ Endpoints for getting post information
 
 ### Admin
 
--`GET api/admin/stats` Only the Admin user for the service can call a /stats endpoint which will retrun a list of all the users and the number of emails they have sent during that day, users who have not used the service should be filtered out. If a non admin user makes a request for stats they should get a 403 Forbidden error.
+- `GET api/admin/stats` Only the Admin user for the service can call a /stats endpoint which will retrun a list of all the users and the number of emails they have sent during that day, users who have not used the service should be filtered out. If a non admin user makes a request for stats they should get a 403 Forbidden error.
 
 ## Tasks
 
