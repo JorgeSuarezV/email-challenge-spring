@@ -27,7 +27,7 @@ In this example you'll find an already setted up empty spring server.
 
 Spring Boot is a powerful framework for building Java-based applications with ease and efficiency. It provides a simplified and opinionated approach to developing production-ready applications by minimizing boilerplate code and simplifying configuration. It aims to simplify the setup and deployment process, allowing developers to focus more on writing business logic and less on infrastructure concerns.
 
-You can have a server running with with the Application Class main function.
+You can have a server running with the Application Class main function.
 
 ```
 @SpringBootApplication
