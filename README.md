@@ -1,6 +1,14 @@
 # Email Challenge Spring
 
-In this example you'll find an already setted up empty spring server.
+In this example you'll find an already setted up empty spring server. Fro this challenge, you'll have to create a service that accepts the necessary information and stores emails.
+
+## Users and Authentication
+Users must register first to use the API. User login must be using a username password flow.
+Users should be authenticated to make requests to the API. You must implement JWT authentication for this service. JWT token must expire after 1 hour.
+
+## Stats
+Only the Admin user for the service can call a /stats endpoint which will retrun a list of all the users and the number of emails they have sent during that day, users who have not used the service should be filtered out.
+If a non admin user makes a request for stats they should get a 403 Forbidden error.
 
 ## Setup
 
