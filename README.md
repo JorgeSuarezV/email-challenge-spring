@@ -140,7 +140,7 @@ Endpoints for getting user information
 
 Endpoints for getting post information
 
-- `GET api/mail` returns mail mails by the user who called the endpoint
+- `GET api/mail` returns a list of mails by the user who called the endpoint
 - `GET api/mail/:mail_id` returns a mail by id
 - `GET api/mail/by_user/:user_id` returns all user mails by id
 - `POST api/mail` creates a mail
