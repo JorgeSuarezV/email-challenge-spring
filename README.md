@@ -138,7 +138,7 @@ Endpoints for getting user information
 
 ### Mail
 
-Endpoints for getting post information
+Endpoints for getting mail information
 
 - `GET api/mail` returns a list of mails by the user who called the endpoint
 - `GET api/mail/:mail_id` returns a mail by id
@@ -147,6 +147,8 @@ Endpoints for getting post information
 - `DELETE api/mail/:mail_id` deletes a mail by id
 
 ### Admin
+
+Endpoints for getting admin information
 
 - `GET api/admin/stats` Only the Admin user for the service can call a /stats endpoint which will retrun a list of all the users and the number of emails they have sent during that day, users who have not used the service should be filtered out. If a non admin user makes a request for stats they should get a 403 Forbidden error.
 
