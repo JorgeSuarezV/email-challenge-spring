@@ -154,5 +154,5 @@ Endpoints for getting post information
 Fork this repository and complete the tasks. Then create a PR and start with your tasks.
 
 - [ ] Implement all the endpoints given (You can add more endpoints to add functionality to your app).
-- [ ] Create unit tests for your services with JUnit. Make a CI/CD pipeline using gitlab actions to run those tests.
+- [ ] Create unit tests for your services with JUnit. Make a CI/CD pipeline using github actions to run those tests.
 - [ ] Add swagger documentation to some endpoints of your REST API.
